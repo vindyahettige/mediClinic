@@ -1104,6 +1104,9 @@ public class Medical_Clinic extends javax.swing.JFrame {
             String address = rs.getString("ADDRESS");
             String dname = rs.getString("DOCTORNAME");
             
+            
+            //Janitha Tennakoon
+            
             textFileno.setText(fno);
             textName.setText(name);
             textMobileno.setText(mno);
