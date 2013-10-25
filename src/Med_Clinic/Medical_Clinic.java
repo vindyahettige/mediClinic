@@ -215,6 +215,8 @@ public class Medical_Clinic extends javax.swing.JFrame {
                 btnDeleteActionPerformed(evt);
             }
         });
+        
+        //mm update kala meka!!!
 
         btnAdd.setBackground(new java.awt.Color(204, 255, 0));
         btnAdd.setText("AddNew");
