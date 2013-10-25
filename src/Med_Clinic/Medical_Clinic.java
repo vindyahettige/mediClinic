@@ -215,6 +215,8 @@ public class Medical_Clinic extends javax.swing.JFrame {
                 btnDeleteActionPerformed(evt);
             }
         });
+        
+        //mm update kala meka!!!
 
         btnAdd.setBackground(new java.awt.Color(204, 255, 0));
         btnAdd.setText("AddNew");
@@ -1103,6 +1105,9 @@ public class Medical_Clinic extends javax.swing.JFrame {
             String mno = rs.getString("MOBILENO");
             String address = rs.getString("ADDRESS");
             String dname = rs.getString("DOCTORNAME");
+            
+            
+            //Janitha Tennakoon
             
             textFileno.setText(fno);
             textName.setText(name);
